@@ -1,0 +1,5 @@
+#!/bin/bash
+dir=$(cd $(dirname $0);pwd)
+bin=$(basename $0 -wrapper)
+export LD_LIBRARY_PATH=$dir:$LD_LIBRARY_PATH
+exec $dir/$bin $@
