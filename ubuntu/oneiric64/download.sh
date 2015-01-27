@@ -9,13 +9,13 @@ pushd $temp_dir
 
 pkgs=(
 $mirror/pool/universe/m/mosh/mosh_1.1-1~oneiric1_amd64.deb
-$mirror/pool/main/p/protobuf/libprotobuf5_2.2.0a-0.1ubuntu1_amd64.deb
+$mirror/pool/main/p/protobuf/libprotobuf7_2.4.1-3ubuntu1_amd64.deb
 $mirror/pool/universe/libu/libutempter/libutempter0_1.1.5-2_amd64.deb
 )
 
 bins=(
 usr/bin/mosh-server
-usr/lib/libprotobuf.so.5
+usr/lib/libprotobuf.so.7
 usr/lib/libutempter.so.0
 )
 
