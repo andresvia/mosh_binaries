@@ -9,7 +9,7 @@ pushd $temp_dir
 
 pkgs=(
 $mirror/pool/universe/m/mosh/mosh_1.1-1~oneiric1_amd64.deb
-$mirror/pool/main/p/protobuf/libprotobuf7_2.4.1-3ubuntu1_amd64.deb
+$mirror/pool/main/p/protobuf/libprotobuf7_2.4.0a-2ubuntu2_amd64.deb
 $mirror/pool/universe/libu/libutempter/libutempter0_1.1.5-2_amd64.deb
 )
 
