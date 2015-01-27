@@ -2,7 +2,7 @@
 
 mirror=http://mirrors.kernel.org/ubuntu
 
-temp_dir=$(mktemp -d)
+temp_dir=$(mktemp -d /tmp/tmp.XXXXXX)
 
 trap "rm -rfv $temp_dir" EXIT
 
